@@ -1,0 +1,36 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+html {
+  @extend %cover;
+
+  font-family: "Epilogue";
+  font-size: calc(100vw / 1920 * 10);
+  line-height: 1;
+  background: #fff;
+}
+
+body {
+  @extend %cover;
+}
+
+a {
+  color: inherit;
+  outline: none;
+  text-decoration: none;
+}
+
+img {
+  vertical-align: middle;
+}
+
+button {
+  color: inherit;
+  background: none;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}

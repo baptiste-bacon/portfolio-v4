@@ -1,0 +1,55 @@
+.home {
+}
+
+.home__title {
+  font-size: 19.2rem;
+  letter-spacing: -0.5rem;
+  text-align: center;
+  font-weight: 700;
+  padding: 40rem 0;
+}
+
+.home__background {
+  background: #040f0f;
+}
+
+.about {
+  color: #ede7e3;
+  padding: 32rem;
+}
+
+.about__title {
+  @extend %title-72;
+}
+
+.about__description {
+}
+
+.about__paragraph {
+  @extend %paragraph-20;
+
+  font-weight: 400;
+}
+
+.about__skills {
+}
+.about__skills-title {
+}
+.about__skills-paragraph {
+}
+
+.about__column {
+  width: 30rem;
+}
+
+.about__contact {
+}
+
+.about__contact-item {
+}
+
+.about__contact-name {
+}
+
+.about__contat-informations {
+}

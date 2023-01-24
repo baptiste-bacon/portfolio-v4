@@ -1,0 +1,79 @@
+.project {
+  padding: 23.2rem 34.5rem;
+  background: #ede7e3;
+}
+
+.project__head {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin-bottom: 9.6rem;
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: -0.8rem;
+    left: 0;
+    height: 4px;
+    width: 100%;
+    background: black;
+  }
+}
+
+.project__head-title {
+  @extend %title-72;
+}
+
+.project__head-number {
+  @extend %title-72;
+
+  font-weight: 600;
+  font-style: italic;
+}
+
+.project__informations {
+  margin-bottom: 12.8rem;
+  display: flex;
+}
+
+.project__informations-details {
+  width: 24rem;
+
+  margin-right: 17.5rem;
+}
+
+.project__date-title {
+}
+
+.project__role {
+  margin-bottom: 6.4rem;
+}
+
+.project__role-title {
+}
+
+.project__role-paragraph {
+  font-style: italic;
+}
+
+.project__techno-title {
+}
+
+.project__techno-paragraph {
+  font-style: italic;
+}
+
+.project__description-title {
+}
+
+.project__description-paragraph {
+  width: 60rem;
+}
+
+.project__title {
+  @extend %title-32;
+}
+
+.project__paragraph {
+  @extend %paragraph-20;
+}
